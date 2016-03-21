@@ -1,0 +1,6 @@
+import random  # defining the variable "random"
+random.randint (0,3)  # "random is a module, which means that the
+#the computer already knows what it means
+random.randint(0,3) # picks a umber from 0-3
+print (random.randint(0,3))  # prints out the number the computer choose
+print (random.randint(0,3))
