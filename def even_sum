@@ -1,6 +1,7 @@
-def even_sum(input):
-    total=0
+def even_sum(input):    # Defining the function sum,  the purpose of this function is to add all of the even numbers
+    total=0 # created a variable that starts at zero
     for x in input:
-        if x%2 !=1:
-            total=total+x
-    print total
+        if x%2 !=1:  # if the number that is divisible by two does not have a remainder of one
+            total=total+x   # once the computer finds all the numbers that do not have one as a remainder, the computer will add the list of number and the variable "total"
+            
+print total     # finally, it will show the um of "total" and "even_sum".
