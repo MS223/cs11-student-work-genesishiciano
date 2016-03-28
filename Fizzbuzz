@@ -1,0 +1,36 @@
+numbers= range(1,101)
+
+def multiples3 (input):
+    three = 3
+    for x in input:
+      if x % three == 0:
+         print "fizz"
+
+
+#multiples3(numbers)
+
+def multiples5 (input):
+    five = 5
+    for x in input:
+      if x % five == 0:
+         print "buzz"
+
+#multiples5(numbers)
+
+def Twomultiples (input):
+    five = 5
+    three = 3
+    for x in input:
+      if x % five ==0 and x % three == 0:
+         print "fizzbuzz"
+# Twomultiples(numbers)
+
+def multiples(input):
+    five = 5
+    three = 3
+   for x in input:
+       if x % five ==0:
+           print x
+            elif x % three==0:
+                print x
+ multiples(numbers)
