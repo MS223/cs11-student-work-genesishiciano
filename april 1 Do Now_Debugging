@@ -1,0 +1,26 @@
+a = 0
+while a< 100:
+	print a
+"""
+Prediction: while the value for a is less than 100, the computer will print out A.
+Observation: A bunch of zeros appeared.
+ """
+
+a = 0
+while a < 100:
+	a = a + 1
+	print a
+"""
+Prediction: while the value is less than 100, it will add 1 to it and print the value out.
+Observation:It shows all of the numbers up to 100.
+ """
+
+a = raw_input("Would you like to quit: ")
+while a != "y":
+	a = raw_input("Would you like to quit: ")
+"""
+Prediction: When the computer asks the person if they would like
+to quit, while the value does not equal "Y"(which might mean YES)
+the code will keep asking if the user wants to quit.
+Observation: It did as I predicted
+ """
