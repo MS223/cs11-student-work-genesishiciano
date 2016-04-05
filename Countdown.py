@@ -1,9 +1,9 @@
 # variables
-# 1. q == the highest value the user wants to use
-# 2. numbers== is the starting point on the guessing game
-#3.guess== the number the person guesses
-# name== asking the person their name
-# tries== how many tries it took to get the answer
+# 1. upper_bound == the highest value the user wants to use
+
+#2.guess== the number the person guesses
+# 3.name== asking the person their name
+#4. tries== how many tries it took to get the answer
 
 
 name=raw_input(" What's your name?")
@@ -21,5 +21,8 @@ while  guess != answer:
     elif guess<answer:
         print"too low"
     guess= input(" what number do you think it is?")
-    print name,"it took you",tries,"try."
-print name +"!","You got it right! it's",answer
+    
+if tries==1:
+    print name," it took you 1 try."
+else:
+    print name,"it took you", tries, "tries."
