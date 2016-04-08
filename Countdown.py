@@ -11,8 +11,8 @@ tries= 0 # starts the equation for "how many tries" the user took
 import random # tells the computer how to import from the library the function called 'random'
 guess= input(" what number do you think it is?") # asks the reader what they think the answer is
 answer=random.randint(0,Upper_bound) # makes the computer input any random number from 0 until the number the user chooses.
-print answer # print the ACTUAL answer
-while  guess != answer: """ this loop tells the computer to do print out 'too high' if the guess that the user picks is too high.
+
+while  guess != answer: """ this loop tells the computer to do print out 'too high' if the guess that the user picks is too high."""
     if guess>answer:
         print "too high"
         tries= tries+1
