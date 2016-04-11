@@ -29,3 +29,6 @@ return_only(7) + 6
 """ The 'return' function only declares the value to the computer without showing it to the user .On the other hand, the 'print' function 
 shows the user the output of the function.
 """
+""" When trying to add to a function, it is only possible to do so when you are using a 'return' function. You cannot add an integer randomly when you 
+use  'print'.
+"""
