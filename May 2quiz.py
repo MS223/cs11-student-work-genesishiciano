@@ -1,9 +1,16 @@
+"""Takes in an integer as the maximum value and prints out that value up to
+number one.
+"""
 def Max_value(integer):
     for x in range(1,integer+1):
      print x
      
 Max_value(90)
 
+'''
+This will compare two sets of lists and it will print
+out the highest (numerical) value.
+'''
 
 def Compare_list(x):
   for x in list1:
