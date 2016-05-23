@@ -1,5 +1,5 @@
-activity= raw_input("What do you want to do?").capitalize()
-Day= raw_input("What  day do you want to do this?")
+# activity= raw_input("What do you want to do?").capitalize()
+# Day= raw_input("What  day do you want to do this?")
 Days_in_week={
 'Sunday': [],
 'Monday':[],
@@ -9,11 +9,29 @@ Days_in_week={
 'Friday':[],
 'Saturday':[],
 }
-print Days_in_week
+
 def add():
- for x in activity:
-     Days_in_week[x]=activity.append(x)# I don't know what's going on here...
+    user_choice=""
+
+    while user_choice!= 'done'  :
+        user_choice=raw_input("What do you want to do?")
+        if user_choice=="done":
+            return None
+        Day=raw_input("what day?")
+    Days_in_week[Day].append(user_choice) # finish Appending
+add()
 print Days_in_week
+
+
+
+
+
+
+
+
+
+
+
 
 
  #should get our action variable and add it to our dictionary -
